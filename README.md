@@ -1,2 +1,10 @@
 # ZDnsLookup
-This a simple code for begineers to learn how common tools working like dig - nslookup - host -curl in kali and much more
+This a simple code for beginners to learn how common tools working like>>> dig - nslookup - host -curl in kali and much more it is good for beginners
+
+دعوني أشرح الكود بالتفصيل للمبتدئين:
+
+هذا الكود يستخدم مكتبة dns.resolver في Python للبحث عن سجلات DNS المختلفة لعنوان IP أو اسم النطاق الذي يتم إدخاله. دعوني أشرح الكود خطوة بخطوة:
+
+يتم استيراد مكتبة dns.resolver. يتم قراءة عنوان IP أو اسم النطاق من المستخدم باستخدام input(). يتم تعريف قائمة types التي تحتوي على أنواع السجلات التي نريد البحث عنها (مثل A، AAAA، MX، NS، إلخ). يتم استعلام مكتبة dns.resolver للبحث عن كل نوع من أنواع السجلات للعنوان المعطى. إذا تم العثور على سجلات، يتم طباعتها. الآن دعوني أعطيك مثالًا على كيفية استخدام هذا الكود:
+
+قم بتشغيل البرنامج. أدخل عنوان IP أو اسم النطاق الذي ترغب في البحث عنه. سيتم البحث عن جميع أنواع السجلات المحددة وطباعتها إذا تم العثور عليها. أتمنى أن يكون هذا الشرح مفيدًا للمبتدئين!
